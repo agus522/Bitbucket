@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+/* BODY */
+
+html, body {
+    width: 100%;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url(http://i.imgur.com/v1mR98F.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.8;
+    filter:alpha(opacity=100);
+    z-index: -1;
+}
+
+h1{
+     font-weight: 700;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 8%;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+}
+
+.search{
+    display: inline-block;
+margin-left: 59%;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    z-index: 1 !important;
+}
+
+.card {
+    width: 20%;
+    margin: 2% 5% 5% 5%;
+    background-color: #3c3c3c;
+    
+}
+
+
+.card{
+    border-radius: 5%;
+   box-shadow: 0px 10px 32px -10px rgba(0,0,0,0.75);
+    transform: scale(1);
+    transition: 0.3s
+}
+
+.card:hover{
+    transform: scale(1.09);
+    transition: 0.3s
+}
+
+.content figure{
+        overflow: hidden;
+    height: 300px;
+}
+
+.content img{
+        width: 100%;
+    height: auto;
+        border-top-right-radius: 5%;
+        border-top-left-radius: 5%;
+}
+.content div{
+    margin: 10%;
+}
+
+.content h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content p{
+    margin-bottom: 4%;
+    color: white
+}
+
+.content b{
+margin-right: 5%;
+color: orange
+}
+
+
